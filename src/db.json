@@ -1,0 +1,51 @@
+{
+  "products": [
+    {
+      "name": "Air Mineral",
+      "image": "https://images.icon-icons.com/881/PNG/512/Bottle_of_Water_icon-icons.com_68778.png",
+      "price": 4000,
+      "stock": 20,
+      "id": "340518fa-f23d-4bd2-adc2-f4abab11aead"
+    },
+    {
+      "id": "0480a2f2-6efb-41ac-bbf8-92eadc81c273",
+      "name": "Kopi Hitam",
+      "price": 8000,
+      "stock": 15,
+      "image": "https://images.icon-icons.com/881/PNG/512/Coffee_to_Go_icon-icons.com_68763.png"
+    },
+    {
+      "id": "f7d69665-cb93-4a3d-b69c-64c0dbc8d077",
+      "name": "Soda",
+      "price": 6000,
+      "stock": 8,
+      "image": "https://images.icon-icons.com/881/PNG/512/Beer_Can_icon-icons.com_68781.png"
+    },
+    {
+      "name": "Coklat Batang",
+      "image": "https://images.icon-icons.com/1447/PNG/512/32425chocolatebar_98858.png",
+      "price": 5000,
+      "stock": 10,
+      "id": "37837007-2bcb-4458-9b89-0fe89ae1188b"
+    },
+    {
+      "id": "67ffdad9-a88e-4e35-b096-075b3eeec606",
+      "name": "Keripik Kentang",
+      "price": 4000,
+      "stock": 12,
+      "image": "https://images.icon-icons.com/3683/PNG/512/food_junk_bakery_snack_potato_icon_229176.png"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "5ddada08-c5b1-45ec-8c2f-3ffa4b4f06b0",
+      "product_id": "67ffdad9-a88e-4e35-b096-075b3eeec606",
+      "date": "2026-01-19T10:02:12.906Z"
+    },
+    {
+      "id": "164a0d60-d682-4269-afbd-3ae53eae73ec",
+      "product_id": "340518fa-f23d-4bd2-adc2-f4abab11aead",
+      "date": "2026-01-19T10:02:29.766Z"
+    }
+  ]
+}
