@@ -74,12 +74,12 @@ npm install
 
 ### 2. Buat file .env
 
-### 2. Jalankan json-server
+### 3. Jalankan json-server
 ```bash
 npx json-server ./src/db.json
 ```
 
-### 3. Jalankan aplikasi
+### 4. Jalankan aplikasi
 ```bash
 npm run dev
 ```
