@@ -33,7 +33,8 @@ export default function Home(){
     }
 
     const handleCancel = () => {
-        toast.info(`Berhasil membatalkan. Uang ${getIdCurrency(balance)} dikembalikan`)
+        toast.info("Berhasil membatalkan")
+        toast.info(`Uang kembalian: ${getIdCurrency(balance)}`)
         setBalance(0)
     }
 
@@ -62,10 +63,9 @@ export default function Home(){
 
             const change = balance - product.price
 
-            if (change == 0){
-                toast.success("Pembelian berhasil")
-            } else if (change > 0){
-                toast.success(`Pembelian berhasil. Uang kembalian Anda: ${getIdCurrency(change)}`)
+            toast.success("Pembelian berhasil")
+            if (change > 0){
+                toast.info(`Uang kembalian: ${getIdCurrency(change)}`)
             }
         } catch(error){
             toast.error("Gagal melakukan transaksi")
@@ -74,13 +74,13 @@ export default function Home(){
     }
 
     return (
-        <section className="flex flex-col gap-8 items-center m-auto my-12 w-1/3 mobile:w-full mobile:p-4">
+        <section className="flex flex-col gap-8 items-center m-auto my-12 w-[80vw] mobile:w-full mobile:p-4 tablet:w-[90vw]">
             <h1 className="text-xl font-bold text-center">Vending Machine App</h1>
-            <section className="products w-full grid grid-cols-3 gap-2 mobile:grid-cols-2">
+            <section className="products w-full grid grid-cols-5 gap-2 mobile:grid-cols-2 tablet:grid-cols-4">
             {
                 products?.map((product, index) => (
                     <article className="product flex flex-col items-center rounded-md overflow-hidden border-gray-200 border relative" key={index}>
-                        <div className="img flex">
+                        <div className="img flex py-2">
                             <img src={product.image} alt={product.name} className="w-full" />
                         </div>
                         <div className="desc w-full flex flex-col gap-2 p-2">

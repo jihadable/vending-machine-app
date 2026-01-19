@@ -9,7 +9,7 @@
     },
     {
       "id": "0480a2f2-6efb-41ac-bbf8-92eadc81c273",
-      "name": "Kopi Hitam",
+      "name": "Teh",
       "price": 8000,
       "stock": 15,
       "image": "https://images.icon-icons.com/881/PNG/512/Coffee_to_Go_icon-icons.com_68763.png"
@@ -34,18 +34,37 @@
       "price": 4000,
       "stock": 12,
       "image": "https://images.icon-icons.com/3683/PNG/512/food_junk_bakery_snack_potato_icon_229176.png"
+    },
+    {
+      "id": "d33110d8-dbd8-4cd8-a32b-2ebc52c4d67c",
+      "name": "Roti",
+      "price": 5000,
+      "stock": 15,
+      "image": "https://images.icon-icons.com/1447/PNG/512/32373baguettebread_98861.png"
+    },
+    {
+      "id": "8d960ece-703d-4531-a294-2fa42a3d83da",
+      "name": "Donut",
+      "price": 5000,
+      "stock": 20,
+      "image": "https://images.icon-icons.com/2852/PNG/512/donut_chocolate_food_sweet_dessert_icon_181516.png"
+    },
+    {
+      "name": "Susu",
+      "image": "https://images.icon-icons.com/549/PNG/512/1455739769_Kitchen_Bold_Line_Color_Mix-02_icon-icons.com_53397.png",
+      "price": 7000,
+      "stock": 10,
+      "id": "5ddada08-c5b1-45ec-8c2f-3ffa4b4f06b0"
+    },
+    {
+      "name": "Kopi Hitam",
+      "image": "https://images.icon-icons.com/3964/PNG/512/drinks_away_take_restaurant_and_food_cup_coffee_icon_251519.png",
+      "price": 10000,
+      "stock": 10,
+      "id": "164a0d60-d682-4269-afbd-3ae53eae73ec"
     }
   ],
   "transactions": [
-    {
-      "id": "5ddada08-c5b1-45ec-8c2f-3ffa4b4f06b0",
-      "product_id": "67ffdad9-a88e-4e35-b096-075b3eeec606",
-      "date": "2026-01-19T10:02:12.906Z"
-    },
-    {
-      "id": "164a0d60-d682-4269-afbd-3ae53eae73ec",
-      "product_id": "340518fa-f23d-4bd2-adc2-f4abab11aead",
-      "date": "2026-01-19T10:02:29.766Z"
-    }
+    
   ]
 }

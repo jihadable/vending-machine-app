@@ -9,7 +9,7 @@ export default function Router(){
     return (
         <BrowserRouter>
             <ToastContainer
-            autoClose={2000}
+            autoClose={3000}
             hideProgressBar
             newestOnTop={false}
             closeOnClick

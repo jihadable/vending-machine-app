@@ -34,7 +34,7 @@ export default function History(){
     }, [])
     
     return (
-        <section className="flex flex-col gap-8 items-center m-auto my-12 w-[80vw] mobile:w-full mobile:p-4">
+        <section className="flex flex-col gap-8 items-center m-auto my-12 w-[80vw] mobile:w-full mobile:p-4 tablet:w-[90vw]">
             <h1 className="text-xl font-bold text-center">Riwayat Transaksi</h1>
             <Link to={"/"} className="self-start py-2 px-6 rounded-md flex items-center gap-2 bg-blue-400">
                 <IconArrowLeft stroke={1.5} />

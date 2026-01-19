@@ -50,7 +50,7 @@ export default function Admin(){
     }
     
     return (
-        <section className="flex flex-col gap-8 items-center m-auto my-12 w-[80vw] mobile:w-full mobile:p-4">
+        <section className="flex flex-col gap-8 items-center m-auto my-12 w-[80vw] mobile:w-full mobile:p-4 tablet:w-[90vw]">
             <h1 className="text-xl font-bold">Halaman Admin</h1>
             <Link to={"/"} className="self-start py-2 px-6 rounded-md flex items-center gap-2 bg-blue-400">
                 <IconArrowLeft stroke={1.5} />
@@ -152,7 +152,7 @@ function AddProductForm({ setIsShowAddProductForm, setProducts }){
                 <h2 className="font-bold">Tambah produk baru</h2>
                 <div className="flex flex-col">
                     <label htmlFor="name-input" className="text-sm">Nama</label>
-                    <input type="text" id="name-input" className="outline-none border-none p-2 bg-white rounded-md" required placeholder="Contoh: Teh Botol" ref={nameInput} />
+                    <input type="text" id="name-input" className="outline-none border-none p-2 bg-white rounded-md" required placeholder="Contoh: Keripik Tempe" ref={nameInput} />
                 </div>
                 <div className="flex flex-col">
                     <label htmlFor="image-input" className="text-sm">Gambar</label>
@@ -164,7 +164,7 @@ function AddProductForm({ setIsShowAddProductForm, setProducts }){
                     </div>
                 <div className="flex flex-col">
                     <label htmlFor="stock-input" className="text-sm">Stock</label>
-                    <input type="number" id="stock-input" min={1} className="outline-none border-none p-2 bg-white rounded-md" required placeholder="Contoh: 100" ref={stockInput} />
+                    <input type="number" id="stock-input" min={1} className="outline-none border-none p-2 bg-white rounded-md" required placeholder="Contoh: 20" ref={stockInput} />
                 </div>
                 <button type="submit" className="py-2 px-6 rounded-md flex items-center justify-center gap-2 bg-blue-400">
                     <IconSend stroke={1.5} />
