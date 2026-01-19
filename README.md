@@ -73,6 +73,9 @@ npm install
 ```
 
 ### 2. Buat file .env
+```bash
+VITE_API_ENDPOINT=http://localhost:3000
+```
 
 ### 3. Jalankan json-server
 ```bash
